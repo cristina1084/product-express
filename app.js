@@ -22,6 +22,10 @@ app.get("/remove",(req,res)=>{
     res.render("remprod");
 })
 
+app.get("/details",(req,res)=>{
+    res.render("details");
+})
+
 app.listen(8080,()=>{
     console.log("Listening");
 })
